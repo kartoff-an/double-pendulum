@@ -3,7 +3,7 @@ A simple simulation and animation of a double pendulum using the Runge-Kutta 4th
 
 <img width="500" src="https://github.com/user-attachments/assets/74c7ce36-ba09-4544-95ec-bfcaa9415b2f">
 
-Source: [The Double Pendulum](https://www.engineered-mind.com/engineering/double-pendulum-1/)
+Image Source: [The Double Pendulum](https://www.engineered-mind.com/engineering/double-pendulum-1/)
 
 ## Features
 - Real-time animation of a double pendulum
