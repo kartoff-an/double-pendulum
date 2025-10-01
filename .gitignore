@@ -1,0 +1,6 @@
+build
+SFML-3.0.2
+out
+.cache
+.idea
+.vs
