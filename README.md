@@ -1,6 +1,9 @@
 # Double Pendulum Animation
 A simple simulation and animation of a double pendulum using the Runge-Kutta 4th Order (RK4) numerical method implemented in C++ and visualized using SFML 3.0.2. This project demonstrates the chaotic motion of a double pendulum system.
 
+![double-pendulum](https://github.com/user-attachments/assets/74c7ce36-ba09-4544-95ec-bfcaa9415b2f)
+Source: [The Double Pendulum](https://www.engineered-mind.com/engineering/double-pendulum-1/)
+
 ## Features
 - Real-time animation of a double pendulum
 - RK4 method for accurate numerical integration.
