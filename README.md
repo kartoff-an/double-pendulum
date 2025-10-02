@@ -15,7 +15,7 @@ Image Source: [The Double Pendulum](https://www.engineered-mind.com/engineering/
 - **C++17** or higher.
 - **SFML 3.0.2** installed.
 
-## Installation (for VS Code)
+## Installation
 
 ### 1. Install SFML 3.0.2
 
@@ -27,13 +27,11 @@ git clone https://github.com/kartoff-an/double-pendulum
 cd double-pendulum
 ```
 
-### 3. Configure `tasks.json` in VS Code
+### 3. Configure `tasks.json` (in VS Code)
 
 It is already included in the repository for you. Modify if necessary.
 
-### 4. Run in VS Code
-
-Key `F5` for shortcut of build + run.
+### 4. Build and run
 
 ## Controls / Parameters
 - Adjust initial angles, masses, or rod lengths in `main.cpp`.
