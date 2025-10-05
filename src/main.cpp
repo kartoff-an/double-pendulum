@@ -3,7 +3,6 @@
 #include <deque>
 #include <iostream>
 #include "Pendulum.hpp"
-#include "Slider.hpp"
 #include "constants.hpp"
 
 #define PI 3.1415926535897932384626433

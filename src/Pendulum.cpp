@@ -11,7 +11,7 @@ void DoublePendulum::computeAcceleration(double t1, double t2, double w1, double
     double delta = t1 - t2;
     double denom1 = (2 * m1 + m2 - m2 * std::cos(2 * delta));
 
-    a1 = (-g * (2 * m1 + m2) * std::sin(t1) - m2 * g * std::sin(t1 - 2 * t2) - 2 * std::sin(delta) * m2 * (w2 * w2 * L2 + w1 * w1 * L1 * std::cos(delta))) / (L2 * denom1);
+    a1 = (-g * (2 * m1 + m2) * std::sin(t1) - m2 * g * std::sin(t1 - 2 * t2) - 2 * std::sin(delta) * m2 * (w2 * w2 * L2 + w1 * w1 * L1 * std::cos(delta))) / (L1 * denom1);
 
     a2 = (2 * std::sin(delta) *
           (w1 * w1 * L1 * (m1 + m2) + g * (m1 + m2) * std::cos(t1) + w2 * w2 * L2 * m2 * std::cos(delta))) /
