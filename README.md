@@ -34,6 +34,7 @@ $$G(\theta) = \binom{(m_1 + m_2) gL_1\sin\theta_1}{m_2gL_2\sin\theta_2}$$
 - Linear damping matrix
 
 $$
+D =
 \begin{pmatrix}
 c_1 + c_2 & -c_2\\
 -c_2 & c_2
