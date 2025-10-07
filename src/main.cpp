@@ -17,9 +17,10 @@ int main()
 {
     double m1 = 1.0, m2 = 1.0;
     double L1 = 0.5, L2 = 0.5;
-    double theta1 = PI / 2, theta2 = PI / 2;
+    double c1 = 0, c2 = 0;
+    double theta1 = PI / 2, theta2 = PI;
     
-    DoublePendulum pendulum(m1, m2, L1, L2, theta1, theta2);
+    DoublePendulum pendulum(m1, m2, L1, L2, theta1, theta2, c1, c2);
 
     sf::ContextSettings settings;
     settings.antiAliasingLevel = 8;
@@ -70,7 +71,7 @@ int main()
     bob2.setOrigin({20.f, 20.f});
 
     std::deque<sf::Vertex> trail;
-    const size_t maxTrail = 500;
+    const size_t maxTrail = 300;
 
     while (window.isOpen())
     {
@@ -134,9 +135,9 @@ int main()
 
         window.draw(rod1);
         window.draw(rod2);
+        window.draw(pivot);
         window.draw(bob1);
         window.draw(bob2);
-        window.draw(pivot);
 
         window.display();
     }
