@@ -58,11 +58,7 @@ git clone https://github.com/kartoff-an/double-pendulum
 cd double-pendulum
 ```
 
-### 3. Configure `tasks.json` (in VS Code)
-
-It is already included in the repository for you. Modify if necessary.
-
-### 4. Build and run
+### 3. Build and run
 
 ## Controls / Parameters
 - Adjust initial angles, masses, rod lengths, or the viscous damping coefficients in `main.cpp`.
